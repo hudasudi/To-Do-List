@@ -10,7 +10,7 @@ This app allows users to manage their daily tasks, with saved data stored in the
 - Add new tasks
 - Mark tasks as completed
 - Delete tasks
-- Clear all tasks
+- Clear tasks
 - Automatically saves tasks using **Local Storage**
 
 ---

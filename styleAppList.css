@@ -51,14 +51,13 @@ font-size: 1rem;
 }
 
 button{
-  flex-shrink: 0;
   border: 0;
   outline: 0;
-  padding: 1rem 1rem;
+  padding: 16px 30px;
   color: #1f1e1e;
   background: rgb(229, 172, 81);
   border-radius: 40px;
-  font-size: 1rem;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -104,4 +103,24 @@ ul li span{
 }
 ul li span:hover{
   background: #edeef0;
+}
+
+
+@media (max-width: 400px) {
+  .row {
+    flex-direction: column;   
+    padding: 0.8rem;         
+    border-radius: 15px;      
+  }
+
+  .row input {
+    width: 100%;
+    padding: 0.8rem;
+    text-align: center;    
+  }
+
+  .row button {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
 }

@@ -12,10 +12,7 @@ This app allows users to manage their daily tasks, with saved data stored in the
 - Delete tasks
 - Clear tasks
 - Automatically saves tasks using **Local Storage**
+- Added responsive layout for mobile devices
 
----
 
-## 🌟 Future Plans
-
-- Make the layout responsive for different devices
 
